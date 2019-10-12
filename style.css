@@ -1,0 +1,82 @@
+/* style.css */
+body{
+  background: #ccc685;
+  color: blue;
+  font-size: 25px;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  padding: 30px;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+  color: red;
+  font-weight: lighter;
+  font-size: 25px;
+}
+h2 {
+  font-family: 'Dancing Script', cursive;
+  color: #693709;
+  font-weight: bold;
+  font-size: 30px;
+}
+a {
+  color: yellow;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("images/pexels-photo-1845275.jpeg");
+  background-size: cover;
+  padding: 100px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+#banner h1 {
+  color: white;
+  font-size: 60px;
+}
+#banner p {
+  color: #ccc685;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+
+  padding: 30px;
+  background: #6e4c25;
+  color: lightgrey;
+ /* padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 50px;*/
+  border: 1px solid gray;
+  border-style: dotted;
+  margin: 20px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.card{
+  padding: 10px;
+  font-weight: lighter;
+}
+
+.card p{
+  color: #96602f;
+
+}
+
+
+#footer a {
+  color: #bfa465;
+}
+#footer a:hover {
+  text-decoration: none;
+  color: #96602f;
+}
