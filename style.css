@@ -1,6 +1,7 @@
 /* style.css */
 body{
   background: #ccc685;
+  background-image: 
   color: blue;
   font-size: 25px;
   font-family: 'Dancing Script', cursive;
@@ -26,6 +27,7 @@ a {
 a:hover {
   text-decoration: none;
   color: purple;
+  font-size: 4em;
 }
 
 #banner{
@@ -79,4 +81,5 @@ a:hover {
 #footer a:hover {
   text-decoration: none;
   color: #96602f;
+  font-size: 2em;
 }
